@@ -7,6 +7,10 @@
 
 		<!--<link rel="stylesheet" media="speech and (min-device-width: 800px)" href="example.css" />-->
 <style>
+* { 
+    box-sizing: border-box;
+} 
+
 body {
     margin: 0;
 	padding: 0;
@@ -19,9 +23,8 @@ body {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
-.Smooth { 
-    -webkit-overflow-scrolling:  auto; 
-    scroll-behavior:  smooth;
+.modelNavInner ul::-webkit-scrollbar { 
+    display: none;
 } 
 
 .modelNav { 
